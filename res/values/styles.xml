@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file contains resource definitions for style.  A style is
+     a collection of named values that can be applied as a group.  Here,
+     we are using a style to define a common set of XML attributes that
+     will be used in multiple tags. -->
+
+<resources>
+    <style name="ActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAppearance">@style/TextAppearance.ActionButton</item>
+    </style>
+
+    <style name="TextAppearance" parent="android:TextAppearance">
+    </style>
+
+    <style name="TextAppearance.ActionButton">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+</resources>
+

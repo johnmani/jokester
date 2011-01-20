@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file contains resource definitions for solid colors.  In
+     addition to plain color resources, we are also using it to define drawables 
+	 that are a solid color. -->
+
+<resources>
+	<!-- Colors are referenced as '@color/red' ... -->
+    <color name="grey">#545454</color>
+    <color name="darkgrey">#0F0F0F</color>
+    <color name="lightgrey">#E3E3E3</color>
+    <color name="slategrey">#708090</color>
+    <color name="dimgrey">#696969</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="brown">#A52A2A</color>
+    <color name="rosybrown">#FFC1C1</color>
+    <color name="saddlebrown">#8B4513</color>
+    <color name="darkbrown">#5C4033</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="darkchocolate">#8B4513</color>
+    <color name="sienna">#8E6B23</color>
+    <color name="tan">#DB9370</color>
+
+    <color name="red">#f00</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="magenta">#E35BD8</color>
+    <color name="scarlet">#8C1717</color>
+    <color name="deeppink">#FF1493</color>
+    <color name="hotpink">#FF69B4</color>
+    <color name="lightpink">#FFB6C1</color>
+    <color name="violetred">#D02090</color>
+    <color name="firebrick">#8B1A1A</color>
+
+    <color name="orange">#FFA500</color>
+    <color name="salmon">#FA8072</color>
+    <color name="orangered">#FF2400</color>
+    <color name="coral">#FF7F00</color>
+    <color name="coralred">#CD5B45</color>
+    <color name="lightcoral">#F08080</color>
+
+	<color name="blue">#0000ff</color>
+	<color name="skyblue">#87CEFA</color>
+	<color name="mediumblue">#0000CD</color>
+	<color name="navyblue">#000080</color>
+	<color name="blueviolet">#8A2BE2</color>
+	<color name="turquoise">#AFEEEE</color>
+	<color name="powderblue">#B0E0E6</color>
+	<color name="richblue">#5959AB</color>
+	<color name="teal">#008080</color>
+
+	<color name="green">#f0f0</color>
+	<color name="darkgreen">#006400</color>
+	<color name="forestgreen">#228B22</color>
+	<color name="limegreen">#32CD32</color>
+	<color name="springgreen">#00FF7F</color>
+	<color name="olivegreen">#6E8B3D</color>
+
+	<color name="yellow">#ffffff00</color>
+	<color name="lightyellow">#FFFFE0</color>
+	<color name="gold">#FFD700</color>
+	<color name="darkgold">#FFB90F</color>
+	<color name="moccasin">#FFE4B5</color>
+	<color name="almond">#FFEBCD</color>
+
+	<color name="violet">#EE82EE</color>
+	<color name="darkviolet">#4F2F4F</color>
+	<color name="maroon">#B03060</color>
+	<color name="purple">#800080</color>
+	<color name="deeppurple">#871F78</color>
+	<color name="darkmagenta">#8B008B</color>
+	<color name="lightmagenta">#FF00FF</color>
+	<color name="orchid">#E066FF</color>
+	<color name="darkorchid">#9932CD</color>
+
+	<!-- drawables are rectangular areas suitable for drawing/rendering. 
+	   You can use drawable below as '@drawable/semi_black' for the background
+	   of a view -->
+    <drawable name="semi_black">#80000000</drawable>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The top view is a layout manager that places its child views into
+     a row, here set to be vertical (so the first is at the top) -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- First view is a text viewer.  We want it to use all available
+         horizontal space, and stretch to fill whatever vertical space
+         is available to it.  -->
+    <TextView android:id="@+id/viewer"
+        android:layout_width="match_parent" 
+		android:layout_height="0dip"
+        android:background="@android:color/transparent"
+		android:typeface="sans"
+		android:textSize="20sp"
+		android:paddingLeft="15dip" 
+		android:paddingTop="25dip" 
+		android:textColor="@color/olivegreen"
+        android:layout_weight="1">
+    </TextView>
+
+    <!-- Next view is another linear layout manager, now horizontal.  We
+         give it a custom background; see colors.xml for the definition
+         of drawable/semi_black-->
+    <LinearLayout
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+
+        <!-- On the left: the "next" button.  On the right: "right" button. -->
+		<ImageButton android:id="@+id/next"
+   	            android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+  	            android:paddingLeft="35dip" 
+				android_paddingRight="4dip"
+				android_paddingBottom="15dip"
+        		android:background="@android:color/transparent"
+  	            android:src="@drawable/next" />
+
+		<ImageButton android:id="@+id/shuffle"
+   	            android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+  	            android:paddingLeft="60dip" 
+				android_paddingRight="4dip"
+				android_paddingBottom="15dip"
+        		android:background="@android:color/transparent"
+  	            android:src="@drawable/shuffle" />
+
+    </LinearLayout>
+
+</LinearLayout>
